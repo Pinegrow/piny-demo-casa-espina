@@ -14,10 +14,13 @@ Copy this prompt into your agent:
 Open this Casa Espina demo in Piny.
 
 Work in this repository. Inspect package.json, the Node version, Vite config
-and any existing lockfile. Use Node ^20.19.0 || >=22.12.0. Run npm install
-to install the pinned dependencies, including @pinegrow/piny@1.0.0-beta.1.
-Keep any generated package-lock.json for repeatable future installs.
-Do not upgrade dependencies, replace this project or change its design.
+and any existing lockfile. Use Node ^20.19.0 || >=22.12.0. Piny follows npm's
+latest tag; keep "@pinegrow/piny": "latest" in package.json.
+Run npm install, then npm update @pinegrow/piny so an existing lockfile also
+receives the current Piny release. Keep the generated package-lock.json for
+repeatable installs; a plain npm install can reuse its locked version.
+Keep all other dependency versions unchanged. Do not replace this project
+or change its design.
 If a required version is unavailable, report the error instead of substituting.
 
 Read node_modules/@pinegrow/piny/AGENT_SETUP.md and follow its setup guidance.
@@ -42,7 +45,8 @@ Do not commit .piny/local.json, .piny/cache, node_modules or dist.
 If components change, npm run previews updates their static samples; inspect
 the changes and samples before recording and committing a new Project Guide review.
 
-Tell me when the demo is ready and explain any setup problem plainly.
+Tell me the installed Piny version when the demo is ready and explain any setup
+problem plainly.
 ```
 
 ## Try three edits
