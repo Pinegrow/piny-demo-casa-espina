@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "components": {
+    "site-layout": {
+      "source": {
+        "module": "src/components/SiteLayout.tsx",
+        "export": "SiteLayout"
+      },
+      "label": "Site layout",
+      "description": "Shared announcement, navigation and footer. App owns path and page children; edit the existing layout rather than nesting another full site shell.",
+      "category": "Application",
+      "documentation": "README.md",
+      "visibility": "advanced",
+      "props": {
+        "path": {
+          "label": "Current route",
+          "control": "text",
+          "readOnly": true
+        }
+      }
+    },
+    "app": {
+      "source": {
+        "module": "src/App.tsx",
+        "export": "default"
+      },
+      "label": "Application router",
+      "description": "History API router and page-state owner. Navigation and route creation stay in source.",
+      "category": "Application",
+      "documentation": "README.md",
+      "visibility": "hidden"
+    },
+    "home-page": {
+      "source": {
+        "module": "src/pages/HomePage.tsx",
+        "export": "HomePage"
+      },
+      "label": "The garden page",
+      "description": "Homepage, hero, collection grid and visitor information.",
+      "category": "Application pages",
+      "documentation": "README.md",
+      "visibility": "advanced"
+    },
+    "gallery-page": {
+      "source": {
+        "module": "src/pages/GalleryPage.tsx",
+        "export": "GalleryPage"
+      },
+      "label": "Gallery page",
+      "description": "Filtered photographs and modal state. Local photo/dialog helpers require their existing data and callback wiring.",
+      "category": "Application pages",
+      "documentation": "README.md",
+      "visibility": "advanced"
+    },
+    "visit-page": {
+      "source": {
+        "module": "src/pages/VisitPage.tsx",
+        "export": "VisitPage"
+      },
+      "label": "Plan your visit page",
+      "description": "Visitor information, shared opening times and FAQ disclosures.",
+      "category": "Application pages",
+      "documentation": "README.md",
+      "visibility": "advanced"
+    },
+    "tickets-page": {
+      "source": {
+        "module": "src/pages/TicketsPage.tsx",
+        "export": "TicketsPage"
+      },
+      "label": "Tickets page",
+      "description": "Local demo booking form; owns quantities, totals, validation and confirmation. No payments or real reservations.",
+      "category": "Application pages",
+      "documentation": "README.md",
+      "visibility": "advanced"
+    },
+    "class-groups-page": {
+      "source": {
+        "module": "src/pages/ClassGroupsPage.tsx",
+        "export": "ClassGroupsPage"
+      },
+      "label": "Class groups demonstration",
+      "description": "Conditional class editing examples, shared local SeasonCard and state toggle. Preserves intentional class merge overrides.",
+      "category": "Application pages",
+      "documentation": "README.md",
+      "visibility": "advanced"
+    }
+  }
+}

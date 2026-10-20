@@ -1,0 +1,15 @@
+import {OpeningHours} from '../components/OpeningHours';
+import {SectionHeading} from '../components/SectionHeading';
+
+export function VisitPage() {
+  return <section className="mx-auto max-w-7xl px-6 py-10 lg:px-12 lg:py-16">
+    <div className="grid items-start gap-12 md:grid-cols-2"><div><SectionHeading eyebrow="Before you wander" title="Your little guide to a lovely day." description="Comfortable shoes. A curious mind. Maybe a sun hat. Here’s everything else you need to find your own pace at Casa Espina." /><img src="/images/glasshouse.png" alt="Sunlight falling along the glasshouse path" className="mt-8 aspect-[4/3] w-full rounded-t-[6rem] rounded-b-sm object-cover" width="1536" height="1024" /></div><OpeningHours /></div>
+    <div className="my-14 grid gap-8 border-y border-pine/20 py-9 md:grid-cols-3"><div><h2 className="font-display text-2xl">Find the garden</h2><p className="mt-3 text-sm leading-7 text-moss">42 Desert Lane, Santa Sol<br />A fictional address for this demo.<br />Bike racks and parking by the entrance.</p></div><div><h2 className="font-display text-2xl">Bring the whole family</h2><p className="mt-3 text-sm leading-7 text-moss">Children under 5 visit free. Pick up a little explorer’s trail at the welcome desk. Please look, but don’t touch the spines.</p></div><div><h2 className="font-display text-2xl">Take a comfortable route</h2><p className="mt-3 text-sm leading-7 text-moss">The main loop and glasshouse are step-free. Some side paths have loose gravel. Assistance dogs are welcome.</p></div></div>
+    <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr]"><SectionHeading eyebrow="A few good questions" title="Good to know." description="More time enjoying the garden. Less time wondering what to pack." /><div className="divide-y divide-pine/20">
+      <details className="py-5"><summary className="text-sm font-medium">Can I bring a picnic?</summary><p className="mt-4 text-sm leading-7 text-moss">Of course. Use the tables beside the shaded courtyard. Refill your water bottle at the café and take your litter home.</p></details>
+      <details className="py-5"><summary className="text-sm font-medium">What happens if it rains?</summary><p className="mt-4 text-sm leading-7 text-moss">The glasshouse stays welcoming in light rain. Outdoor paths may close in severe weather. This demo has no live weather or closure feed.</p></details>
+      <details className="py-5"><summary className="text-sm font-medium">Are guided walks included?</summary><p className="mt-4 text-sm leading-7 text-moss">The 11:00 and 15:00 garden introductions are included with admission. Meet by the welcome desk; each walk lasts around 20 minutes.</p></details>
+      <details className="py-5"><summary className="text-sm font-medium">Can I actually reserve a ticket here?</summary><p className="mt-4 text-sm leading-7 text-moss">This is a fictional demo project. You can complete a local demo reservation, but it makes no real booking and takes no payment.</p></details>
+    </div></div>
+  </section>;
+}

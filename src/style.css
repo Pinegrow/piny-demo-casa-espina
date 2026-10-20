@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f7f5ed;
+  --color-pine: #344638;
+  --color-moss: #62725a;
+  --color-lime: #dce7a0;
+  --color-clay: #b75a3d;
+  --color-sand: #eae5d8;
+  --font-sans: "Avenir Next", "Segoe UI", sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+@layer base {
+  body { margin: 0; background: var(--color-cream); color: var(--color-pine); }
+  button, a, input, select, summary { -webkit-tap-highlight-color: transparent; }
+  button, summary, select { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--color-clay); outline-offset: 5px; }
+  button:disabled { cursor: not-allowed; }
+  ::selection { background: var(--color-lime); color: var(--color-pine); }
+  dialog::backdrop { background: rgb(20 32 23 / 75%); backdrop-filter: blur(6px); }
+}

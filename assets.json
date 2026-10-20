@@ -1,0 +1,25 @@
+{
+  "generated": "2026-09-15",
+  "tool": "Built-in imagegen",
+  "purpose": "Original fictional cactus zoo editorial photography",
+  "images": [
+    {
+      "file": "public/images/garden.png",
+      "sha256": "75fe342be02e868afb46c459909aa4567ab3ec2d48d5b888969e0e0717a41ec3",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "public/images/bloom.png",
+      "sha256": "b756afcf5d85a0a39a5228a640efe3620e76472b42ec854276de735194183880",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "public/images/glasshouse.png",
+      "sha256": "9ddceb43138bb6c8448659e61415fd1373dbce3657844aca2748e0b532094d15",
+      "width": 1536,
+      "height": 1024
+    }
+  ]
+}

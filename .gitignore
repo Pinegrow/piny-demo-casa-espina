@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tsbuildinfo
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+.piny/local.json
+.piny/cache/
+.piny/metadata-reviews.json

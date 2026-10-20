@@ -1,0 +1,4 @@
+# Local server discovery and review state belong to this working copy.
+/cache/
+/local.json
+/metadata-reviews.json

@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "components": {
+    "garden-card": {
+      "source": {
+        "module": "src/components/GardenCard.tsx",
+        "export": "GardenCard"
+      },
+      "label": "Garden card",
+      "description": "An image, title, description and collection number, linking to the gallery.",
+      "category": "Garden collection",
+      "documentation": "README.md",
+      "order": 10,
+      "keywords": [
+        "cactus",
+        "plant",
+        "photo",
+        "collection"
+      ],
+      "props": {
+        "image": {
+          "label": "Photograph",
+          "control": "image",
+          "group": "Image",
+          "description": "Choose a project image. The title also supplies its alternative text."
+        },
+        "title": {
+          "label": "Card title",
+          "control": "text",
+          "group": "Content",
+          "minLength": 1
+        },
+        "description": {
+          "label": "Description",
+          "control": "textarea",
+          "group": "Content"
+        },
+        "number": {
+          "label": "Collection number",
+          "control": "text",
+          "group": "Content",
+          "description": "Display text such as 01. Keep leading zeroes."
+        }
+      },
+      "insert": {
+        "props": {
+          "image": "/images/garden.png",
+          "title": "The desert giants",
+          "description": "Walk among towering columns and golden barrels in our oldest open-air garden.",
+          "number": "01"
+        }
+      },
+      "presets": {
+        "bloom": {
+          "label": "Flowering collection",
+          "props": {
+            "image": "/images/bloom.png",
+            "title": "Small, but spectacular",
+            "description": "Look a little closer. Our flowering collection saves its brightest surprises for patient visitors.",
+            "number": "02"
+          },
+          "preview": "bloom"
+        },
+        "glasshouse": {
+          "label": "Glasshouse",
+          "props": {
+            "image": "/images/glasshouse.png",
+            "title": "Under the glass",
+            "description": "A warm, light-filled home for rare shapes, soft shadows and curious little discoveries.",
+            "number": "03"
+          },
+          "preview": "glasshouse"
+        }
+      },
+      "examples": {
+        "default": {
+          "html": ".piny/previews/garden-card-default.html",
+          "label": "Desert giants",
+          "viewport": {
+            "width": 440,
+            "height": 560
+          }
+        },
+        "bloom": {
+          "html": ".piny/previews/garden-card-bloom.html",
+          "label": "In bloom",
+          "viewport": {
+            "width": 440,
+            "height": 560
+          }
+        },
+        "glasshouse": {
+          "html": ".piny/previews/garden-card-glasshouse.html",
+          "label": "Under glass",
+          "viewport": {
+            "width": 440,
+            "height": 560
+          }
+        }
+      },
+      "watch": {
+        "preview": [
+          "public/images/garden.png",
+          "public/images/bloom.png",
+          "public/images/glasshouse.png"
+        ]
+      }
+    },
+    "section-heading": {
+      "source": {
+        "module": "src/components/SectionHeading.tsx",
+        "export": "SectionHeading"
+      },
+      "label": "Section heading",
+      "description": "Editorial eyebrow, heading and supporting copy.",
+      "category": "Page sections",
+      "documentation": "README.md",
+      "order": 20,
+      "keywords": [
+        "title",
+        "introduction",
+        "copy"
+      ],
+      "props": {
+        "eyebrow": {
+          "label": "Eyebrow",
+          "control": "text",
+          "group": "Content"
+        },
+        "title": {
+          "label": "Heading",
+          "control": "text",
+          "group": "Content",
+          "minLength": 1
+        },
+        "description": {
+          "label": "Supporting copy",
+          "control": "textarea",
+          "group": "Content"
+        }
+      },
+      "insert": {
+        "props": {
+          "eyebrow": "A world with a little more character",
+          "title": "Some of our favourite residents.",
+          "description": "No feeding times. No roaring. Just a remarkable collection of plants that do things their own way."
+        }
+      },
+      "presets": {
+        "visit": {
+          "label": "Visitor introduction",
+          "props": {
+            "eyebrow": "Your day, at your pace",
+            "title": "A small escape. A lasting impression.",
+            "description": "Follow the gravel paths, pause in the shade and discover the stories behind the spines."
+          },
+          "preview": "visit"
+        }
+      },
+      "examples": {
+        "default": {
+          "html": ".piny/previews/section-heading-default.html",
+          "label": "Collection introduction",
+          "viewport": {
+            "width": 760,
+            "height": 360
+          }
+        },
+        "visit": {
+          "html": ".piny/previews/section-heading-visit.html",
+          "label": "Visitor introduction",
+          "viewport": {
+            "width": 760,
+            "height": 360
+          }
+        }
+      }
+    },
+    "opening-hours": {
+      "source": {
+        "module": "src/components/OpeningHours.tsx",
+        "export": "OpeningHours"
+      },
+      "label": "Opening hours",
+      "description": "Shared opening-time panel and ticket link.",
+      "category": "Visitor information",
+      "documentation": "README.md",
+      "order": 30,
+      "keywords": [
+        "hours",
+        "times",
+        "visit"
+      ],
+      "examples": {
+        "default": {
+          "html": ".piny/previews/opening-hours.html",
+          "label": "Opening times",
+          "viewport": {
+            "width": 560,
+            "height": 540
+          }
+        }
+      }
+    },
+    "brand": {
+      "source": {
+        "module": "src/components/SiteLayout.tsx",
+        "export": "Brand"
+      },
+      "label": "Casa Espina brand",
+      "description": "Shared cactus mark and wordmark linking to the homepage.",
+      "category": "Brand",
+      "documentation": "README.md",
+      "order": 40,
+      "keywords": [
+        "logo",
+        "identity",
+        "cactus"
+      ],
+      "examples": {
+        "default": {
+          "html": ".piny/previews/brand.html",
+          "label": "Wordmark",
+          "viewport": {
+            "width": 480,
+            "height": 180
+          }
+        }
+      }
+    },
+    "ticket-quantity": {
+      "source": {
+        "module": "src/components/TicketQuantity.tsx",
+        "export": "TicketQuantity"
+      },
+      "label": "Ticket quantity",
+      "description": "Ticket type, price and quantity control.",
+      "category": "Booking controls",
+      "documentation": "README.md",
+      "visibility": "advanced",
+      "props": {
+        "label": {
+          "label": "Ticket label",
+          "control": "text",
+          "group": "Content"
+        },
+        "detail": {
+          "label": "Ticket details",
+          "control": "textarea",
+          "group": "Content"
+        },
+        "price": {
+          "label": "Unit price (EUR)",
+          "control": "number",
+          "group": "Booking",
+          "readOnly": true,
+          "description": "Owned by the booking price configuration."
+        },
+        "value": {
+          "label": "Selected quantity",
+          "control": "number",
+          "group": "Booking",
+          "readOnly": true,
+          "description": "Owned by React booking state."
+        },
+        "minimum": {
+          "label": "Minimum quantity",
+          "control": "number",
+          "group": "Booking",
+          "min": 0,
+          "max": 8,
+          "step": 1
+        }
+      },
+      "examples": {
+        "default": {
+          "html": ".piny/previews/ticket-adults.html",
+          "label": "Two adults",
+          "viewport": {
+            "width": 620,
+            "height": 200
+          }
+        },
+        "minimum": {
+          "html": ".piny/previews/ticket-children.html",
+          "label": "No children selected",
+          "viewport": {
+            "width": 620,
+            "height": 200
+          }
+        }
+      },
+      "watch": {
+        "preview": [
+          "src/booking.ts",
+          "src/pages/TicketsPage.tsx"
+        ]
+      }
+    }
+  }
+}

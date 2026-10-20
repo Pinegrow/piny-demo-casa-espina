@@ -1,0 +1,38 @@
+{
+  "name": "piny-demo-casa-espina",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A cactus garden website to explore and edit with Piny.",
+  "type": "module",
+  "packageManager": "npm@10.8.2",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "previews": "node --import tsx scripts/update-previews.ts"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "cn": "0.3.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tailwind-merge": "3.7.0"
+  },
+  "devDependencies": {
+    "@pinegrow/piny": "1.0.0-beta.1",
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "22.20.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.13",
+    "typescript": "5.9.3",
+    "vite": "7.3.6"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}

@@ -1,0 +1,5 @@
+The MIT license covers this demo's source, documentation and included images
+to the extent Pinegrow holds rights in them. Image provenance is in assets.json.
+
+The separately installed @pinegrow/piny package is not included in this grant.
+Piny and other npm dependencies retain their own licenses.
