@@ -1,0 +1,2083 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "entity": "component:app",
+      "aspect": "contract",
+      "digest": "9179bcab6997649ce7ec28bbd9d848f1e6b574e207f0d6d9a7692de66e005ac7",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "1080a60800d9e5bddc69f51489c636a776bacaadb5368f46db4aa0947c67e3ba",
+          "pointer": "/components/app/source/export"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "21a9ea3e726c1de0d5fb854e7b81d9b8e4b6d65351cc634aeb7d9a339d66016b",
+          "pointer": "/components/app/source/module"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "86d3147e0de86e0ebd654db2412091a20ab0eaf2eec43f162fa77642310fe63a",
+          "pointer": "/components/app/visibility"
+        },
+        {
+          "path": "src/App.tsx",
+          "kind": "source",
+          "sha256": "689d20271d935ca0b5900de1a7ded810f39e64b43cd34a6d8ce4ecb7a6bc550f"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. History API navigation and page-state ownership; source controls routing and no insertion preset is advertised. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:app",
+      "aspect": "description",
+      "digest": "4c10cfc6c034248baf50dcee00089607aabe8d1bc1d38cfcabe8d010f67008e3",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d9cafcd6f14b2bd135ff3a6675f0e00dbd04e639b6e92692db48e4bcbabe521f",
+          "pointer": "/components/app/category"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "b1b60c7c8d7566e1ae590443839e2dc85b89bca63329f766745dd9ae7783f5f6",
+          "pointer": "/components/app/description"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/app/documentation"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "0430175ea479562d78a5c2ad6f55377555ebe4d2488afcaa09e2d3b5283d7cb7",
+          "pointer": "/components/app/label"
+        },
+        {
+          "path": "src/App.tsx",
+          "kind": "source",
+          "sha256": "689d20271d935ca0b5900de1a7ded810f39e64b43cd34a6d8ce4ecb7a6bc550f"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. History API navigation and page-state ownership; source controls routing and no insertion preset is advertised. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:brand",
+      "aspect": "contract",
+      "digest": "c2ef29691a0064d0428490d9541189c8ad43ed62ea8583fa23518f91f9ddfdc8",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "ee461e4e6ac3462b48a086016739f9202a99ad4a4ab7fd7f76c7fc75a8d0082e",
+          "pointer": "/components/brand/source/export"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "85a4d73f4e2ff27a65ce8f13a382499cdc96098f8679b0dadb332a5b49355e46",
+          "pointer": "/components/brand/source/module"
+        },
+        {
+          "path": "src/components/SiteLayout.tsx",
+          "kind": "source",
+          "sha256": "e50caf0277f60fd3b35ec03021d96e0d10f76724ccbd344c0866dbb5e2fc51b3"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Homepage link, cactus SVG and wordmark; no props or callbacks. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:brand",
+      "aspect": "description",
+      "digest": "21ca4876f387619666c82655251d7b44ee021fff61da03e9e4fb076fbd71bebc",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "ee461e4e6ac3462b48a086016739f9202a99ad4a4ab7fd7f76c7fc75a8d0082e",
+          "pointer": "/components/brand/category"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "8b011fc4e1e0134f38654243ce76d80f5382b18be4d4e32d4775eed7d4e1896c",
+          "pointer": "/components/brand/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/brand/documentation"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "f1b282dee8769afe2fe5b7787d630e4004410541264972c03a4c6d2e6ec010c5",
+          "pointer": "/components/brand/examples/default/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "641ffdb6c34e75b907a2bf36f572a1aedf9f760fc9f21065f8b65c95ffc230b7",
+          "pointer": "/components/brand/keywords/0"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "edc16df845e33adb7350d4f445198696bd235f430ce3956d999e04d6e23a6a29",
+          "pointer": "/components/brand/keywords/1"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "69946c1cff5933d6724544bd5aba0abebdc5659c65f8a9ef641b674b47e01aff",
+          "pointer": "/components/brand/keywords/2"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "9e4ccc76357c86f90ca23a52f9c5c184478b667e3b366a41889b96caa722e275",
+          "pointer": "/components/brand/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
+          "pointer": "/components/brand/order"
+        },
+        {
+          "path": "src/components/SiteLayout.tsx",
+          "kind": "source",
+          "sha256": "e50caf0277f60fd3b35ec03021d96e0d10f76724ccbd344c0866dbb5e2fc51b3"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Homepage link, cactus SVG and wordmark; no props or callbacks. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:class-groups-page",
+      "aspect": "contract",
+      "digest": "e634a4c196b8a550bfd29a1975f1e13300443462264c47d8a508b4108c25e61b",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "e6a5f049a02a6eb256e09df758fc6d2b67151b5219383df6742753b6910143a9",
+          "pointer": "/components/class-groups-page/source/export"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d3a49b18e9873b9e0ddec948f629d58e35c2853af3cb610c81721fa6faa97cd3",
+          "pointer": "/components/class-groups-page/source/module"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "c4e28e850d2a74af4362c80149ebe16c15fba02aa7c0dd96ce57ea97493fbaad",
+          "pointer": "/components/class-groups-page/visibility"
+        },
+        {
+          "path": "src/pages/ClassGroupsPage.tsx",
+          "kind": "source",
+          "sha256": "6053e0f43e24f87688777e0b7d9dbcc52ec0ddcd177c879ed76185594d1baa9a"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Shared local SeasonCard uses conditional class groups and state toggle; descriptions preserve intentional merge overrides. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:class-groups-page",
+      "aspect": "description",
+      "digest": "c0b6d8f97e72a2235f198320f04c32130d17a3c620503b4ccf65b749c94ed768",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "53e03fdf5f4496a780b6d8fb41a0b7c3e515db43e5587c6f609e650b71d7d15f",
+          "pointer": "/components/class-groups-page/category"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "06c09d03fa6abd71cc1711867d57fdd6d4593847ae982d8660910783a4de4a72",
+          "pointer": "/components/class-groups-page/description"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/class-groups-page/documentation"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "f058be9dc221ca04e5852391d6a03fa329c59c9e7f5a01b3cf66384dc6ea9746",
+          "pointer": "/components/class-groups-page/label"
+        },
+        {
+          "path": "src/pages/ClassGroupsPage.tsx",
+          "kind": "source",
+          "sha256": "6053e0f43e24f87688777e0b7d9dbcc52ec0ddcd177c879ed76185594d1baa9a"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Shared local SeasonCard uses conditional class groups and state toggle; descriptions preserve intentional merge overrides. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:gallery-page",
+      "aspect": "contract",
+      "digest": "ab5b5647bcbda1d313625d0e9cd36f1e82f85dc8ac0872359511696a220fd956",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "3d3fb0de1c43859e3503b2e75bcf68a6a2868d329a7583c05ae3cbd8aa18ac7a",
+          "pointer": "/components/gallery-page/source/export"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "b5065f4a31ef116e5f9b004bb8b43d36cdfa954c69da606e0870bb9c162e586b",
+          "pointer": "/components/gallery-page/source/module"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "c4e28e850d2a74af4362c80149ebe16c15fba02aa7c0dd96ce57ea97493fbaad",
+          "pointer": "/components/gallery-page/visibility"
+        },
+        {
+          "path": "src/pages/GalleryPage.tsx",
+          "kind": "source",
+          "sha256": "35e5aaa09c6c4cb7df08a63a048f786dfd26dadaf4f4a7bee68b49f323893a60"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Photo filtering and dialog state match description; local helpers retain photo data and callback wiring. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:gallery-page",
+      "aspect": "description",
+      "digest": "c8100519bbd14346bda649c4d99a63e6d5096ae178ccc236fc9615b712b5d7c3",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "53e03fdf5f4496a780b6d8fb41a0b7c3e515db43e5587c6f609e650b71d7d15f",
+          "pointer": "/components/gallery-page/category"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "ad87c2053c1324c524860889e03d2c3b485ef522cddf36e855d25c011a008892",
+          "pointer": "/components/gallery-page/description"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/gallery-page/documentation"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "cfc8cf914fa2c0db4153cf676929e45b583e704987308419aca8a3ad15b58bac",
+          "pointer": "/components/gallery-page/label"
+        },
+        {
+          "path": "src/pages/GalleryPage.tsx",
+          "kind": "source",
+          "sha256": "35e5aaa09c6c4cb7df08a63a048f786dfd26dadaf4f4a7bee68b49f323893a60"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Photo filtering and dialog state match description; local helpers retain photo data and callback wiring. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:garden-card",
+      "aspect": "contract",
+      "digest": "6ef41be9bba78ab4d19e7738479bb8db2c78b9f9d063581b76dbc8a9c5c907f6",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "6d9962893b513d7629fa2b5c8c3f6833f5341fcb73919c92ded8456a4ff03e3b",
+          "pointer": "/components/garden-card/insert/props/image"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "699cc6e015a59c04d0a0a7cf5376f0e83d4982bc7c781b644f7eecc798558358",
+          "pointer": "/components/garden-card/insert/props/number"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "5061a2681ffeda3c2cc31f23d9f359b982f55e62b47ce9d62f822aad205eae1c",
+          "pointer": "/components/garden-card/insert/props/title"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "4b89ffc9dc87abab21037929eeef1bfebff22eaa7e31cce83ecfaeb6e5bd9db6",
+          "pointer": "/components/garden-card/presets/bloom/props/image"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "bd5f009185e4b4d0a51749665fc6e366ff1b7cdffad867b500d537ec5a3eb3e7",
+          "pointer": "/components/garden-card/presets/bloom/props/number"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "6d343296c2a2f8f3b98a6effa40200236cb27ec19c920ced9f81eebb1cb771ac",
+          "pointer": "/components/garden-card/presets/bloom/props/title"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "146c78528555a5f72ec01cf3b3aad8c58e12a19b36c953f7b74520a650dee8c2",
+          "pointer": "/components/garden-card/presets/glasshouse/props/image"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "0b3aa5a157d032f2f6a566cfa75bcb8230e7d703fb3f143c7752df6d4c17bf32",
+          "pointer": "/components/garden-card/presets/glasshouse/props/number"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "5e17a11cfe4a2cd4b0c085516b69a07f7f1503bc06d26be83a84411cccd7462e",
+          "pointer": "/components/garden-card/presets/glasshouse/props/title"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "affa657b3c3e9337bdf3c879c0561b74d54a9197fdc6acd834dcdc02837454fc",
+          "pointer": "/components/garden-card/props/image/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "1e1d0f251d3a76fa2b1bfc81164078572623403887db02988b504b0492e9f076",
+          "pointer": "/components/garden-card/props/number/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "1e1d0f251d3a76fa2b1bfc81164078572623403887db02988b504b0492e9f076",
+          "pointer": "/components/garden-card/props/title/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "pointer": "/components/garden-card/props/title/minLength"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "15dee4eed4c36a295643a5daf13f124e0c047cc54d5c3b16a79b8e312790b223",
+          "pointer": "/components/garden-card/source/export"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "9945163d32c7938bc8bdad79d2b43752c8427230a712ccfe47f393a320c661a6",
+          "pointer": "/components/garden-card/source/module"
+        },
+        {
+          "path": "src/components/GardenCard.tsx",
+          "kind": "source",
+          "sha256": "2647c21b08ea077a5550aba3feb2f6ccedc022d88cc539cb1849ac6be5f6cca4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Four required string props, gallery link and title-derived alt text; image/text controls and default, flowering and glasshouse insertion props match source. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:garden-card",
+      "aspect": "description",
+      "digest": "053cd4d9add630d686547e6eac2177ceed484a1ead779bb317602c1de2e682da",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "09aad1ea907e5cd24cddd917df28d16d0c34846db86c353d449e870b4d2c26e0",
+          "pointer": "/components/garden-card/category"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c7e86944584041d2972c700cb6bc6fa27593c801ccaf789ef729171ab530d577",
+          "pointer": "/components/garden-card/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/garden-card/documentation"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "4c205d725aa383453c90a66982050085a3e1b567f55bf1db0ee2afd6f005b17f",
+          "pointer": "/components/garden-card/examples/bloom/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "7804616a9e0cce40e82c58837e1e12a2ae365b5a6a9b73a5d3446206e10b4c08",
+          "pointer": "/components/garden-card/examples/default/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "ad2cfc780147ec7b4179fabb8e18e2504fa1d891eaab050b232c26801f7aed3e",
+          "pointer": "/components/garden-card/examples/glasshouse/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "065d58037a41cec5ee024797f6210dfefa657dc6adcdd7ef46389d75f84e1b65",
+          "pointer": "/components/garden-card/insert/props/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "69946c1cff5933d6724544bd5aba0abebdc5659c65f8a9ef641b674b47e01aff",
+          "pointer": "/components/garden-card/keywords/0"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "afa266913e9793ec7a774e538e05f70df859d4a3c2898f161c743c6c7cf47000",
+          "pointer": "/components/garden-card/keywords/1"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "90a92258a67f2b3785443a91b41be67e28fe4bfaf9abf88ec0789176087781f4",
+          "pointer": "/components/garden-card/keywords/2"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "fe934a0dca42a0d8d4199da38ce35d5d8c19e63f659963a6791b82c13494b0a0",
+          "pointer": "/components/garden-card/keywords/3"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "308f1bdb89e2595ea7c8bd0ae45b809103b6d7acda526fe38cec7168996b6f0c",
+          "pointer": "/components/garden-card/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+          "pointer": "/components/garden-card/order"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "1b0c4fc2fe45bb1154795daab18cc86495acd38ebda262bbd755e66a46c2e226",
+          "pointer": "/components/garden-card/presets/bloom/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "6bcf4dc255f2b8b7ac85a25fdef1dc20f6c9a414b1eed51eece4bb459a70eb53",
+          "pointer": "/components/garden-card/presets/bloom/props/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "84a340430ef6e69b270e9423273cbd8ecb821672fe446eb6d7142966935c8b6a",
+          "pointer": "/components/garden-card/presets/glasshouse/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "a4d1065ccaa931a7fc993a17af0ef11b264b2408e92ab7e0c72535f0d17fecb0",
+          "pointer": "/components/garden-card/presets/glasshouse/props/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "b5e89f74a6257dbb738248a06e6bb54f105ddb5d6c3c578d7c24340ec5054abf",
+          "pointer": "/components/garden-card/props/description/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57170bb74dc9d2ec590ce3213b0281f3483d8ea7d0e091ed13685e1c82db5815",
+          "pointer": "/components/garden-card/props/description/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "6e0d190c847ecfe3c49229dcfd9caa90444cb1565c1459b736142822a647f963",
+          "pointer": "/components/garden-card/props/description/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "ce1f416e3a76c47928493eaefe498df816b58aa4a9e9bb13c6b126c743cbef1d",
+          "pointer": "/components/garden-card/props/image/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "fc6eaa65315f601d8c320a1823fd343b0592f71437a04fa2b6448292219f4aec",
+          "pointer": "/components/garden-card/props/image/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "a169dc45f90312bdefec8aafa9f357860c9f0a1db13de3eb6d8a23a0eb10e2b2",
+          "pointer": "/components/garden-card/props/image/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "512126e7aa9d5f397bf7b5569b414860515a869953de809d5cacb9bfcc66e9f1",
+          "pointer": "/components/garden-card/props/number/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57170bb74dc9d2ec590ce3213b0281f3483d8ea7d0e091ed13685e1c82db5815",
+          "pointer": "/components/garden-card/props/number/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "9393158a44d8000859cf3a571c8d58b286e9b9d7c322bae2d0cd3249f78e1ae0",
+          "pointer": "/components/garden-card/props/number/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57170bb74dc9d2ec590ce3213b0281f3483d8ea7d0e091ed13685e1c82db5815",
+          "pointer": "/components/garden-card/props/title/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "68f248cf5fed87ec3cbf32af9ff9c9d604f21b245dc8dda38c5fd878d39df532",
+          "pointer": "/components/garden-card/props/title/label"
+        },
+        {
+          "path": "src/components/GardenCard.tsx",
+          "kind": "source",
+          "sha256": "2647c21b08ea077a5550aba3feb2f6ccedc022d88cc539cb1849ac6be5f6cca4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Four required string props, gallery link and title-derived alt text; image/text controls and default, flowering and glasshouse insertion props match source. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:home-page",
+      "aspect": "contract",
+      "digest": "03f7b62c25097b1c1e507345f72fc9fec2ddf38c7590a6a27faee9ea1ed4d0a0",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "6c9b6db3cb4e1be66b4d2b22a51bef4d79919c01f5bda047f47ede4190326cde",
+          "pointer": "/components/home-page/source/export"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "b2a665b8af89c0fce63b4debec6b9d3821fe3d452b3ab1d8f2a05eb72e903d9f",
+          "pointer": "/components/home-page/source/module"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "c4e28e850d2a74af4362c80149ebe16c15fba02aa7c0dd96ce57ea97493fbaad",
+          "pointer": "/components/home-page/visibility"
+        },
+        {
+          "path": "src/pages/HomePage.tsx",
+          "kind": "source",
+          "sha256": "f1a27e069d960edf8bc17122980247dd945e85dd555587a508dd924dc2170011"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Homepage hero, collection grid and visitor-information composition; no insertion preset is advertised. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:home-page",
+      "aspect": "description",
+      "digest": "b2cb744dde8fc1b0d537c130d3cd7e108c6c159ab22db68121de622a3c17c95c",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "53e03fdf5f4496a780b6d8fb41a0b7c3e515db43e5587c6f609e650b71d7d15f",
+          "pointer": "/components/home-page/category"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "a621699e9e1e33947d63dd01f81008c505f61977ac618055406b3194cbd1dbe9",
+          "pointer": "/components/home-page/description"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/home-page/documentation"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "b5178b03668aa4941ed0dd36abca9a5c8f0ab4ea6f3cfa230290504abdb647a4",
+          "pointer": "/components/home-page/label"
+        },
+        {
+          "path": "src/pages/HomePage.tsx",
+          "kind": "source",
+          "sha256": "f1a27e069d960edf8bc17122980247dd945e85dd555587a508dd924dc2170011"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Homepage hero, collection grid and visitor-information composition; no insertion preset is advertised. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:opening-hours",
+      "aspect": "contract",
+      "digest": "4142cc41010e3d9a0b2a6cdcb1413307d7ff5cc1f0ef06879c0e9c286bc579e4",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "4818552ee4c9de25f462e120773609e6253a10c1325216a65fdcd036122f183c",
+          "pointer": "/components/opening-hours/source/export"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "4e20d43b45372b307b5d29ee19e74ddc51f7451cdc0b46ecbc2d88dd78500430",
+          "pointer": "/components/opening-hours/source/module"
+        },
+        {
+          "path": "src/components/OpeningHours.tsx",
+          "kind": "source",
+          "sha256": "0b3dc82035a2e5fc6cbf33dc0bbb62b4f2f4f68508528f1df042261a4f86810b"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Shared opening-time panel and ticket link; no props or callbacks. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:opening-hours",
+      "aspect": "description",
+      "digest": "194b6bfac7cdf5a65799fee9b3cc1a269d95287b149b0fcba62383bbc2bd3a4e",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "2e9cae86f3525012bb94af90ba9c926c2acf3c0884791f4e925cd24cea9000c4",
+          "pointer": "/components/opening-hours/category"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "e106931c8363aa2249cd40a61bb009fd9b45c52b1bedc1b24d2ed13adbc28f29",
+          "pointer": "/components/opening-hours/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/opening-hours/documentation"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "bee56154c3d6dfb56eaeeb9530265a1973af7afe166cdd077b3f10de5fa553b1",
+          "pointer": "/components/opening-hours/examples/default/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "fc2f8d2abafa347fd7f0fa7e4c8b4149ff1daa42044e46e33eea37b19de73435",
+          "pointer": "/components/opening-hours/keywords/0"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d5f7c948008d0423481234672d6e0075900daeff50ad803ac00d803029a4d4a7",
+          "pointer": "/components/opening-hours/keywords/1"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "4456a12e05a7074c09c0bbd6418f83271460d9dccda4151a517560e33c9ef00d",
+          "pointer": "/components/opening-hours/keywords/2"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "04cbd4210eccf1fbf3d5377e7c8252dacebba995f91beac321600a947180a476",
+          "pointer": "/components/opening-hours/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
+          "pointer": "/components/opening-hours/order"
+        },
+        {
+          "path": "src/components/OpeningHours.tsx",
+          "kind": "source",
+          "sha256": "0b3dc82035a2e5fc6cbf33dc0bbb62b4f2f4f68508528f1df042261a4f86810b"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Shared opening-time panel and ticket link; no props or callbacks. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:section-heading",
+      "aspect": "contract",
+      "digest": "9d6b0bf423d06f8106c3e2ff861b6bc8c8943b38790664987d94d77663e92c42",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "0e7b5a8b05eefe97bb68520a0f673e337f0f375f43072e7f107ed7ec7ba2bb04",
+          "pointer": "/components/section-heading/insert/props/eyebrow"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "e6012a114516d28189de018843507847ce0dbaf6ed5749bbf63a8b74b59641b0",
+          "pointer": "/components/section-heading/insert/props/title"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c275b6ae9fcdf5d7c18bd03463e2146c8302145578f558c204e0a8e0425ebfeb",
+          "pointer": "/components/section-heading/presets/visit/props/eyebrow"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c87cba29a07ffbaea69bfc84d8c978f537460f7076e704627b21aa8a790bb8bb",
+          "pointer": "/components/section-heading/presets/visit/props/title"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "1e1d0f251d3a76fa2b1bfc81164078572623403887db02988b504b0492e9f076",
+          "pointer": "/components/section-heading/props/eyebrow/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "1e1d0f251d3a76fa2b1bfc81164078572623403887db02988b504b0492e9f076",
+          "pointer": "/components/section-heading/props/title/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "pointer": "/components/section-heading/props/title/minLength"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "9f559ab6d9173e3e4fec00df69d61a3846c7199cec90b927d13e19622cf1248e",
+          "pointer": "/components/section-heading/source/export"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "6845c08f8c830d44932006ed0aac9a526869604450ee5800f8304d94403f829d",
+          "pointer": "/components/section-heading/source/module"
+        },
+        {
+          "path": "src/components/SectionHeading.tsx",
+          "kind": "source",
+          "sha256": "dd7eccdc7c9e08fb4a1e791109dea8e08cda140a511665fbea3dc9bcb42c7258"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Three required string props supply eyebrow, heading and supporting text; default and visitor insertion values match their static samples. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:section-heading",
+      "aspect": "description",
+      "digest": "a74158e3be24c282824a8c781548668ac32b19f8030a167fa9d34e12403d8922",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "324d1a256a7e8d194042d634ac4cbad6f590178fb05d195ce9592148623d6c05",
+          "pointer": "/components/section-heading/category"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "43ef5b3d817a510be30059244afb96472345c302cc3b18457020616e9c0e3493",
+          "pointer": "/components/section-heading/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/section-heading/documentation"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c57ed718cbfd549abdae6f6442db9b2eb4d0a5169e7be44454bba22cfd9578a0",
+          "pointer": "/components/section-heading/examples/default/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "68ac8068a7c473db1ea4aea1e654ad4940fa43f2f6e4791c7594f9824f0a9599",
+          "pointer": "/components/section-heading/examples/visit/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "10d7c80d8d7f5cbc1f14008dfcb8adc8a3e40938cefd5401503033cf67ded020",
+          "pointer": "/components/section-heading/insert/props/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "87dfbbd263f118137d036701c9df923f7214ce109ccf397139825fcf4b4e7a5c",
+          "pointer": "/components/section-heading/keywords/0"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "5300b46b24986e21d82656dc93d0beaf262bc2feabb739473299acac12a57545",
+          "pointer": "/components/section-heading/keywords/1"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "166b0224642d899b3bcee9662565384be54c79a393bef30d262bfd1eed1d5a97",
+          "pointer": "/components/section-heading/keywords/2"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c9ab7aae8dd3384794cfe23638e5f6f9b7a40e428158bd55590cf354de95ec39",
+          "pointer": "/components/section-heading/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b",
+          "pointer": "/components/section-heading/order"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "68ac8068a7c473db1ea4aea1e654ad4940fa43f2f6e4791c7594f9824f0a9599",
+          "pointer": "/components/section-heading/presets/visit/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "0b1d72d33228d8fd0496e36bff40b4aec1bfa32bc3cb6046f81abd68f350ec59",
+          "pointer": "/components/section-heading/presets/visit/props/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "b5e89f74a6257dbb738248a06e6bb54f105ddb5d6c3c578d7c24340ec5054abf",
+          "pointer": "/components/section-heading/props/description/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57170bb74dc9d2ec590ce3213b0281f3483d8ea7d0e091ed13685e1c82db5815",
+          "pointer": "/components/section-heading/props/description/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "04f6d7b0d1d9d0547a213c8bba870d7e37d97f180810d7f44b0ad64f9208ad0e",
+          "pointer": "/components/section-heading/props/description/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57170bb74dc9d2ec590ce3213b0281f3483d8ea7d0e091ed13685e1c82db5815",
+          "pointer": "/components/section-heading/props/eyebrow/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "f28cbbb987f8d29eb3f108b3ec65c6c154109ace5b5877a771772768a57d6db6",
+          "pointer": "/components/section-heading/props/eyebrow/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57170bb74dc9d2ec590ce3213b0281f3483d8ea7d0e091ed13685e1c82db5815",
+          "pointer": "/components/section-heading/props/title/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "e58d77dcf8b385e6ca424580221174efce566e80434b963190df5e575884b3f7",
+          "pointer": "/components/section-heading/props/title/label"
+        },
+        {
+          "path": "src/components/SectionHeading.tsx",
+          "kind": "source",
+          "sha256": "dd7eccdc7c9e08fb4a1e791109dea8e08cda140a511665fbea3dc9bcb42c7258"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Three required string props supply eyebrow, heading and supporting text; default and visitor insertion values match their static samples. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:site-layout",
+      "aspect": "contract",
+      "digest": "f3085cb003f76ef1b0f73b7cdfcb389cafba5b0c750170b2cbfd5bdca610e40b",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "1e1d0f251d3a76fa2b1bfc81164078572623403887db02988b504b0492e9f076",
+          "pointer": "/components/site-layout/props/path/control"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "pointer": "/components/site-layout/props/path/readOnly"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "27adc325550ad7eea06f3dd4f72fdce9e8830acef365ea3b725c9794f6c68b3d",
+          "pointer": "/components/site-layout/source/export"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "85a4d73f4e2ff27a65ce8f13a382499cdc96098f8679b0dadb332a5b49355e46",
+          "pointer": "/components/site-layout/source/module"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "c4e28e850d2a74af4362c80149ebe16c15fba02aa7c0dd96ce57ea97493fbaad",
+          "pointer": "/components/site-layout/visibility"
+        },
+        {
+          "path": "src/components/SiteLayout.tsx",
+          "kind": "source",
+          "sha256": "e50caf0277f60fd3b35ec03021d96e0d10f76724ccbd344c0866dbb5e2fc51b3"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Required children and current path remain app-owned; required children prevent standalone insertion; description explains shared navigation/footer scope. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:site-layout",
+      "aspect": "description",
+      "digest": "83abb2525178852cac56f817c2a5e72bff5dc873016a81dbbd346560f7465ab4",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d9cafcd6f14b2bd135ff3a6675f0e00dbd04e639b6e92692db48e4bcbabe521f",
+          "pointer": "/components/site-layout/category"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "bee66143806b1097de7d41a3742bd101bbb5693f51f9527f1443522bb6aa0dcc",
+          "pointer": "/components/site-layout/description"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/site-layout/documentation"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "cec788d644f24fe51c8e6b4e25c59583577e04ac30bca6527cafb908e32065a9",
+          "pointer": "/components/site-layout/label"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "5318eddd108910c54c41aeab5a8345ed96ddab81014615aaabad61507c528845",
+          "pointer": "/components/site-layout/props/path/label"
+        },
+        {
+          "path": "src/components/SiteLayout.tsx",
+          "kind": "source",
+          "sha256": "e50caf0277f60fd3b35ec03021d96e0d10f76724ccbd344c0866dbb5e2fc51b3"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Required children and current path remain app-owned; required children prevent standalone insertion; description explains shared navigation/footer scope. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:ticket-quantity",
+      "aspect": "contract",
+      "digest": "bfbd74105e9ca6ffc9310f168f70bcb486656ee145d215130c5d9bdab63ad1a2",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "b5e89f74a6257dbb738248a06e6bb54f105ddb5d6c3c578d7c24340ec5054abf",
+          "pointer": "/components/ticket-quantity/props/detail/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "fd1a55ee2217c1ac278ab485236d6c199517334ee91e965cf2f6b8575701cd1c",
+          "pointer": "/components/ticket-quantity/props/minimum/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "pointer": "/components/ticket-quantity/props/minimum/max"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "pointer": "/components/ticket-quantity/props/minimum/min"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "pointer": "/components/ticket-quantity/props/minimum/step"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "fd1a55ee2217c1ac278ab485236d6c199517334ee91e965cf2f6b8575701cd1c",
+          "pointer": "/components/ticket-quantity/props/price/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "pointer": "/components/ticket-quantity/props/price/readOnly"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "fd1a55ee2217c1ac278ab485236d6c199517334ee91e965cf2f6b8575701cd1c",
+          "pointer": "/components/ticket-quantity/props/value/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "pointer": "/components/ticket-quantity/props/value/readOnly"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "1c2a70cf6ee5a4c76a61b3adb2ce5515548ede5d9af0ca4cf0e686241c08f751",
+          "pointer": "/components/ticket-quantity/source/export"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "096971fe3045ab0e8fbc51c43680d300e7ce42951c26dfa3da817ff723799af9",
+          "pointer": "/components/ticket-quantity/source/module"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c4e28e850d2a74af4362c80149ebe16c15fba02aa7c0dd96ce57ea97493fbaad",
+          "pointer": "/components/ticket-quantity/visibility"
+        },
+        {
+          "path": "src/components/TicketQuantity.tsx",
+          "kind": "source",
+          "sha256": "d594f41860325b229d294327b9cf88e686a704f3a137304257eb24060f17b046"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Label/detail/minimum scalar controls match source; price and value remain read-only; required onChange prevents standalone insertion; sample callbacks are display-only. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:ticket-quantity",
+      "aspect": "description",
+      "digest": "07b51411656fbcb3c877cefa3904648600a831c211952d69644c30d7532168fe",
+      "dependencies": [
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "ff71f47fb55ec69f621a6d7dff834e9c170ddee3f870a7464fedf91b4ff04fdb",
+          "pointer": "/components/ticket-quantity/category"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "f6bfb57c2ebae7f98a86d05abf2ea62ad34827e3fbd5b6137d3cc50d9ecf9501",
+          "pointer": "/components/ticket-quantity/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/ticket-quantity/documentation"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "339458d77084e9e01641f806a48fb2468b144f742ad54ed7ba41dc7a517f9e56",
+          "pointer": "/components/ticket-quantity/examples/default/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "8a3114111ab3df6d2ad8b5ca57121e7eb27e0a3293800c30d2db03d106a68842",
+          "pointer": "/components/ticket-quantity/examples/minimum/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "93c2f86655813732effeb96322a4697e70298e2496006d0f2e0169b60a2ce414",
+          "pointer": "/components/ticket-quantity/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57170bb74dc9d2ec590ce3213b0281f3483d8ea7d0e091ed13685e1c82db5815",
+          "pointer": "/components/ticket-quantity/props/detail/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d44dcfc0b3b537dfe158d3364f41281dead4684d72a4d540a8560a69c63684ef",
+          "pointer": "/components/ticket-quantity/props/detail/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "1e1d0f251d3a76fa2b1bfc81164078572623403887db02988b504b0492e9f076",
+          "pointer": "/components/ticket-quantity/props/label/control"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57170bb74dc9d2ec590ce3213b0281f3483d8ea7d0e091ed13685e1c82db5815",
+          "pointer": "/components/ticket-quantity/props/label/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "e176420695e2f87278071aa715c42b6cb8f701ff3542f56addecad2f7f18485d",
+          "pointer": "/components/ticket-quantity/props/label/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "0aef18b6ec28a4834aeab92861c0666b6cb3020eeff6b94480d93c399e1b9ea1",
+          "pointer": "/components/ticket-quantity/props/minimum/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "19e2cdd4d9c1e7c418b0c03ce30e37c17807db778c9634ae33ba153a868c8ed8",
+          "pointer": "/components/ticket-quantity/props/minimum/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "f593ecdca8f5c70ff7d993c13042583c694a0364f0fb879b872659bb6670e90a",
+          "pointer": "/components/ticket-quantity/props/price/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "0aef18b6ec28a4834aeab92861c0666b6cb3020eeff6b94480d93c399e1b9ea1",
+          "pointer": "/components/ticket-quantity/props/price/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "93ae58b298df961c2dc618b5e6e74b7e7a6b584da0af70530668d2eed15292cc",
+          "pointer": "/components/ticket-quantity/props/price/label"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "36d93990030ff28507226e8f5279e214a32d21a6ff827bdc1ae49506edebecf1",
+          "pointer": "/components/ticket-quantity/props/value/description"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "0aef18b6ec28a4834aeab92861c0666b6cb3020eeff6b94480d93c399e1b9ea1",
+          "pointer": "/components/ticket-quantity/props/value/group"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "36a788ff16963d2cc91f89ca515ddbb86ae7bb49b43b13b6b953cd129dfc23f4",
+          "pointer": "/components/ticket-quantity/props/value/label"
+        },
+        {
+          "path": "src/components/TicketQuantity.tsx",
+          "kind": "source",
+          "sha256": "d594f41860325b229d294327b9cf88e686a704f3a137304257eb24060f17b046"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Label/detail/minimum scalar controls match source; price and value remain read-only; required onChange prevents standalone insertion; sample callbacks are display-only. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:tickets-page",
+      "aspect": "contract",
+      "digest": "ea452630f80433ae4ef17910d1d5c7a42267ea96e1b98af387f1a23bcf714ac4",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "1633285d87bc876f712ea5ff0ffa8094dcb87d89c9a8a961a07a7bea411c9e85",
+          "pointer": "/components/tickets-page/source/export"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d1cc03f61761d40a3a2561b3caf224f35cf0f4ca33c87fb952e491352f160a53",
+          "pointer": "/components/tickets-page/source/module"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "c4e28e850d2a74af4362c80149ebe16c15fba02aa7c0dd96ce57ea97493fbaad",
+          "pointer": "/components/tickets-page/visibility"
+        },
+        {
+          "path": "src/pages/TicketsPage.tsx",
+          "kind": "source",
+          "sha256": "004615ac56331aa49c9930d5a191f1d5a931dec8c8b0acf33ef419405ae4c3aa"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Local booking state, quantities, totals, validation and confirmation match description; no payments or real reservations. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:tickets-page",
+      "aspect": "description",
+      "digest": "25b1cd49509727156c6d706d3d114fee133d0b53dc7e75531701f77b6058abb2",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "53e03fdf5f4496a780b6d8fb41a0b7c3e515db43e5587c6f609e650b71d7d15f",
+          "pointer": "/components/tickets-page/category"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "bbbe242bd38f94ae19cb27bf037352136ddafffb6193d40e67466ea601d18119",
+          "pointer": "/components/tickets-page/description"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/tickets-page/documentation"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "8817489174b73c58dcbd53cfd26cbe1a539816c7391c6e46e0e912c6305839f4",
+          "pointer": "/components/tickets-page/label"
+        },
+        {
+          "path": "src/pages/TicketsPage.tsx",
+          "kind": "source",
+          "sha256": "004615ac56331aa49c9930d5a191f1d5a931dec8c8b0acf33ef419405ae4c3aa"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Local booking state, quantities, totals, validation and confirmation match description; no payments or real reservations. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:visit-page",
+      "aspect": "contract",
+      "digest": "152c9439636a4ffd29fa56de829b86361e2f71bcefeb618fc34b450e638d4719",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "060e589bff0a0570a468dabedc08e728711bbcbcb613eefbbdc62e514c260a6c",
+          "pointer": "/components/visit-page/source/export"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "4cbedfb450dd9e308eaaa2ea8bd341a47e3092f9f7dce8c75140a67a98b27615",
+          "pointer": "/components/visit-page/source/module"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "c4e28e850d2a74af4362c80149ebe16c15fba02aa7c0dd96ce57ea97493fbaad",
+          "pointer": "/components/visit-page/visibility"
+        },
+        {
+          "path": "src/pages/VisitPage.tsx",
+          "kind": "source",
+          "sha256": "2ef409675df641e591cc782b972180699f03565e3764954aef08b29c7875fd43"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored prop/control/insertion contract. Visitor guidance, shared opening times and native details/summary FAQs match description. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "component:visit-page",
+      "aspect": "description",
+      "digest": "ea92a9cbf40cb9bfd937a464666ee8c9c010a86aa477100b48cafce2a439f72d",
+      "dependencies": [
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "53e03fdf5f4496a780b6d8fb41a0b7c3e515db43e5587c6f609e650b71d7d15f",
+          "pointer": "/components/visit-page/category"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "0755982d8dd8bbd984c4a22dfa09fbd674c9751cf8bb2a5fb2999ee23804481f",
+          "pointer": "/components/visit-page/description"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "d82ab49f91a6ba1662d933820377bd073d4da4fb04bd2911a20ecfde554cdd93",
+          "pointer": "/components/visit-page/documentation"
+        },
+        {
+          "path": ".piny/application.json",
+          "kind": "metadata",
+          "sha256": "8bbaec042f7a42728dfb635940cff58c176615f6c026021e0ee69010eb35de34",
+          "pointer": "/components/visit-page/label"
+        },
+        {
+          "path": "src/pages/VisitPage.tsx",
+          "kind": "source",
+          "sha256": "2ef409675df641e591cc782b972180699f03565e3764954aef08b29c7875fd43"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: inspected current component source and authored labels and description. Visitor guidance, shared opening times and native details/summary FAQs match description. Live metadata inspection reported no schema, reference or type errors.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:brand/default",
+      "aspect": "preview",
+      "digest": "d998db7bb6d3038796848e51ec6833035d5abf87aeea793b433c870c7c7289a5",
+      "dependencies": [
+        {
+          "path": ".piny/previews/brand.html",
+          "kind": "asset",
+          "sha256": "cb6b2890251db23714cce8e7e0421e67c4cc4152386747d928628800c6213772"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "7119d1eed94c761e88b8318537e337e0fd35adba0b90cf411bcbfa6c4464f39e",
+          "pointer": "/components/brand/examples/default/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "7343a307cbca5bc89d5c5dd1fe42a8fb1781841832ea99148611682723ca3386",
+          "pointer": "/components/brand/examples/default/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/SiteLayout.tsx",
+          "kind": "source",
+          "sha256": "e50caf0277f60fd3b35ec03021d96e0d10f76724ccbd344c0866dbb5e2fc51b3"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:garden-card/bloom",
+      "aspect": "preview",
+      "digest": "be3bc07bf310f7311e07de553341ad064f50f02afa90db88a066fb494c70349b",
+      "dependencies": [
+        {
+          "path": ".piny/previews/garden-card-bloom.html",
+          "kind": "asset",
+          "sha256": "fa4ef52b30d305ef7a2c2443d986760effda3dd1c2fe72b2ddcd708ef76dbd0a"
+        },
+        {
+          "path": "public/images/bloom.png",
+          "kind": "asset",
+          "sha256": "b756afcf5d85a0a39a5228a640efe3620e76472b42ec854276de735194183880"
+        },
+        {
+          "path": "public/images/garden.png",
+          "kind": "asset",
+          "sha256": "75fe342be02e868afb46c459909aa4567ab3ec2d48d5b888969e0e0717a41ec3"
+        },
+        {
+          "path": "public/images/glasshouse.png",
+          "kind": "asset",
+          "sha256": "9ddceb43138bb6c8448659e61415fd1373dbce3657844aca2748e0b532094d15"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "57cd614f8b2845edb0fdfa53a4e0a32c79adbb797559bfc38e3d6f4db94556c5",
+          "pointer": "/components/garden-card/examples/bloom/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c65c2d9623ffaa40a00ec0ffbcb73cb3f9af9b7ae435194cef4a298bb5b735bf",
+          "pointer": "/components/garden-card/examples/bloom/viewport"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "3e37fabe1dd5d482b25a0a85b9101d493316369cfb9210e12903e64afd196593",
+          "pointer": "/components/garden-card/watch/preview"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/GardenCard.tsx",
+          "kind": "source",
+          "sha256": "2647c21b08ea077a5550aba3feb2f6ccedc022d88cc539cb1849ac6be5f6cca4"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:garden-card/default",
+      "aspect": "preview",
+      "digest": "685797e0629c250e39c2970057e930a73c6c52e389c3a024809556c86b4a3e34",
+      "dependencies": [
+        {
+          "path": ".piny/previews/garden-card-default.html",
+          "kind": "asset",
+          "sha256": "ae45263c145dd221f712eaad4eaadcb9c7b29c5f531f7de6cd33c4a5c8d1b9d9"
+        },
+        {
+          "path": "public/images/bloom.png",
+          "kind": "asset",
+          "sha256": "b756afcf5d85a0a39a5228a640efe3620e76472b42ec854276de735194183880"
+        },
+        {
+          "path": "public/images/garden.png",
+          "kind": "asset",
+          "sha256": "75fe342be02e868afb46c459909aa4567ab3ec2d48d5b888969e0e0717a41ec3"
+        },
+        {
+          "path": "public/images/glasshouse.png",
+          "kind": "asset",
+          "sha256": "9ddceb43138bb6c8448659e61415fd1373dbce3657844aca2748e0b532094d15"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "5979d906f6d1c06a500385164359d2d17340d9b57156223dd3959141b5db930b",
+          "pointer": "/components/garden-card/examples/default/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c65c2d9623ffaa40a00ec0ffbcb73cb3f9af9b7ae435194cef4a298bb5b735bf",
+          "pointer": "/components/garden-card/examples/default/viewport"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "3e37fabe1dd5d482b25a0a85b9101d493316369cfb9210e12903e64afd196593",
+          "pointer": "/components/garden-card/watch/preview"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/GardenCard.tsx",
+          "kind": "source",
+          "sha256": "2647c21b08ea077a5550aba3feb2f6ccedc022d88cc539cb1849ac6be5f6cca4"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:garden-card/glasshouse",
+      "aspect": "preview",
+      "digest": "d7bb36d1e09937de168194fab9d7c01a60f66a785315c73d90d35b996e56fb6d",
+      "dependencies": [
+        {
+          "path": ".piny/previews/garden-card-glasshouse.html",
+          "kind": "asset",
+          "sha256": "47aa45f8192a14f0a267c62fec4c80d71a9d144ffe7a70afa9b8783f521a2828"
+        },
+        {
+          "path": "public/images/bloom.png",
+          "kind": "asset",
+          "sha256": "b756afcf5d85a0a39a5228a640efe3620e76472b42ec854276de735194183880"
+        },
+        {
+          "path": "public/images/garden.png",
+          "kind": "asset",
+          "sha256": "75fe342be02e868afb46c459909aa4567ab3ec2d48d5b888969e0e0717a41ec3"
+        },
+        {
+          "path": "public/images/glasshouse.png",
+          "kind": "asset",
+          "sha256": "9ddceb43138bb6c8448659e61415fd1373dbce3657844aca2748e0b532094d15"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c964efa232bc88882cedf31750fcd00f24aa711793d3b75acea6eb1cf295f726",
+          "pointer": "/components/garden-card/examples/glasshouse/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "c65c2d9623ffaa40a00ec0ffbcb73cb3f9af9b7ae435194cef4a298bb5b735bf",
+          "pointer": "/components/garden-card/examples/glasshouse/viewport"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "3e37fabe1dd5d482b25a0a85b9101d493316369cfb9210e12903e64afd196593",
+          "pointer": "/components/garden-card/watch/preview"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/GardenCard.tsx",
+          "kind": "source",
+          "sha256": "2647c21b08ea077a5550aba3feb2f6ccedc022d88cc539cb1849ac6be5f6cca4"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:opening-hours/default",
+      "aspect": "preview",
+      "digest": "b385d09492f20583d1e7b18dabbfdb34abdf2d7ba4dc04eea58a707268345488",
+      "dependencies": [
+        {
+          "path": ".piny/previews/opening-hours.html",
+          "kind": "asset",
+          "sha256": "c4347b9fdb0ee992a9e63bc17c2a2e70a0ea502b5b46734e6f5fd5efa794fbd0"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "fa79e2a29c89abee73b352e97a10b6345afe7c62a7bac64febd102ac8c0d49a3",
+          "pointer": "/components/opening-hours/examples/default/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "a05e4b105946f5edd684e49892c19fac1ca7ecbab9ca2321fc51bebf5edfe4a8",
+          "pointer": "/components/opening-hours/examples/default/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/OpeningHours.tsx",
+          "kind": "source",
+          "sha256": "0b3dc82035a2e5fc6cbf33dc0bbb62b4f2f4f68508528f1df042261a4f86810b"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:section-heading/default",
+      "aspect": "preview",
+      "digest": "195de000d5db4f7db89b88b0dda5e58f672584b7557b6b4c18c9516921e478af",
+      "dependencies": [
+        {
+          "path": ".piny/previews/section-heading-default.html",
+          "kind": "asset",
+          "sha256": "8810b37532ac1bba7a28cf875497065d088859ace44ccfc4101727f44c5f1e79"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "4100dceafd960d68febaf7af82c1e01254ea73a1a611dfb106c81b67124fd5ed",
+          "pointer": "/components/section-heading/examples/default/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "271264002fdc95c26de910b00673ae1fad22e88cc53224f926bf1554329ea3cf",
+          "pointer": "/components/section-heading/examples/default/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/SectionHeading.tsx",
+          "kind": "source",
+          "sha256": "dd7eccdc7c9e08fb4a1e791109dea8e08cda140a511665fbea3dc9bcb42c7258"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:section-heading/visit",
+      "aspect": "preview",
+      "digest": "8d7f4873ba2b6a5e2dffa6fd646c1ae78e4add0a954b9094efe8c29ed1e8e4d7",
+      "dependencies": [
+        {
+          "path": ".piny/previews/section-heading-visit.html",
+          "kind": "asset",
+          "sha256": "fa205f0082f59a7b513f52b923c79c72dd48d1fe24f7a83fa6f7281419d1d0e4"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "5c99ac6a1b26f3b8294bed529f5b7b288ce3b505bef9f4c8a42eb9f421a65ff4",
+          "pointer": "/components/section-heading/examples/visit/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "271264002fdc95c26de910b00673ae1fad22e88cc53224f926bf1554329ea3cf",
+          "pointer": "/components/section-heading/examples/visit/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/SectionHeading.tsx",
+          "kind": "source",
+          "sha256": "dd7eccdc7c9e08fb4a1e791109dea8e08cda140a511665fbea3dc9bcb42c7258"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:ticket-quantity/default",
+      "aspect": "preview",
+      "digest": "859fd922ea6cfb17c7ed2ad941a5ca37db8d5bd61fa64421431635806d0c0a36",
+      "dependencies": [
+        {
+          "path": ".piny/previews/ticket-adults.html",
+          "kind": "asset",
+          "sha256": "ddac2e05b14cdbee8e05d57609099b5b71c680000c3b5e3d525d326c5ebcf081"
+        },
+        {
+          "path": "src/booking.ts",
+          "kind": "asset",
+          "sha256": "af9e268f25ef3ae6256072819fdb60d70008ef0248d9893ae6fed026118b30bc"
+        },
+        {
+          "path": "src/pages/TicketsPage.tsx",
+          "kind": "asset",
+          "sha256": "004615ac56331aa49c9930d5a191f1d5a931dec8c8b0acf33ef419405ae4c3aa"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "3d26b85313ee17bbc6218381e087d3de4b768c0a2c6f63bc855225dfe4ba53fd",
+          "pointer": "/components/ticket-quantity/examples/default/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "42c0db3ad0a81af8eb7381ad2ac57c37e44d8acc83c303f6a38640aaab651adb",
+          "pointer": "/components/ticket-quantity/examples/default/viewport"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "dadfd7f3e258811b6d1eb4e4fea732850946956ab0b6ba2b8288ab9f3e4c2d84",
+          "pointer": "/components/ticket-quantity/watch/preview"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/TicketQuantity.tsx",
+          "kind": "source",
+          "sha256": "d594f41860325b229d294327b9cf88e686a704f3a137304257eb24060f17b046"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    },
+    {
+      "entity": "example:ticket-quantity/minimum",
+      "aspect": "preview",
+      "digest": "167f72d9823ead81347ca6f6438725aaad8b70f35a23f7bc0050404be4a8f3b2",
+      "dependencies": [
+        {
+          "path": ".piny/previews/ticket-children.html",
+          "kind": "asset",
+          "sha256": "86e5a744726198b14abb497b623a61b7335ee0655a52ea2293ca15ca753e5263"
+        },
+        {
+          "path": "src/booking.ts",
+          "kind": "asset",
+          "sha256": "af9e268f25ef3ae6256072819fdb60d70008ef0248d9893ae6fed026118b30bc"
+        },
+        {
+          "path": "src/pages/TicketsPage.tsx",
+          "kind": "asset",
+          "sha256": "004615ac56331aa49c9930d5a191f1d5a931dec8c8b0acf33ef419405ae4c3aa"
+        },
+        {
+          "path": ".piny/previews/context.html",
+          "kind": "environment",
+          "sha256": "369a31ed05c3f58a8eb897ca23d8a7f14f2775ae3ce22be74dcb0a7cb67d183b"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "d87590c5439b68ec929ca274582bae7c2ee86454da2051a6facddbc051fbc8fe",
+          "pointer": "/components/ticket-quantity/examples/minimum/html"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "42c0db3ad0a81af8eb7381ad2ac57c37e44d8acc83c303f6a38640aaab651adb",
+          "pointer": "/components/ticket-quantity/examples/minimum/viewport"
+        },
+        {
+          "path": ".piny/library.json",
+          "kind": "metadata",
+          "sha256": "dadfd7f3e258811b6d1eb4e4fea732850946956ab0b6ba2b8288ab9f3e4c2d84",
+          "pointer": "/components/ticket-quantity/watch/preview"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "085ad4d495567841232e277a9ff61b89dca547b423d069a9895f2ff6e48118e1",
+          "pointer": "/previewEnvironments/casa-espina/html"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "e6084a413edacefd19e763dd75c1b5b5e72d57ee63b2b3e5747eb6c01b0f954a",
+          "pointer": "/previewEnvironments/casa-espina/viewport"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "245e6962b0e32add82479300feb045c6ba442a2ab6f8ab23b8ab1c95f906a8eb",
+          "pointer": "/previewEnvironments/casa-espina/watch"
+        },
+        {
+          "path": "piny.project.json",
+          "kind": "metadata",
+          "sha256": "a99ee3365175bc369b0c0859373ebbb361f378a7cf2480d5e8b8b121670bb048",
+          "pointer": "/project/defaultPreviewEnvironment"
+        },
+        {
+          "path": "src/components/TicketQuantity.tsx",
+          "kind": "source",
+          "sha256": "d594f41860325b229d294327b9cf88e686a704f3a137304257eb24060f17b046"
+        },
+        {
+          "path": "src/style.css",
+          "kind": "style",
+          "sha256": "f73745900db6e464201469799a67a2700fe53f95d5f1547f0551185405934aa4"
+        }
+      ],
+      "note": "Demo baseline review, 2026-10-20: compared the committed static HTML fragment byte-for-byte with a fresh React renderToStaticMarkup of the current component and the authored defaults/preset or display-only ticket props; all nine Casa samples matched. Inspected the shared HTML context and declared style/image watches. This records source/static-HTML review, not visual browser or interaction acceptance.",
+      "toolVersion": "0.0.0+metadata.static.1"
+    }
+  ]
+}

@@ -36,9 +36,11 @@ Open it in a local desktop Chromium browser, or give me the URL if you cannot.
 Leave existing license settings unchanged; do not activate a license or start
 a trial for me. The first edits work in Free. Keep piny.project.json,
 .piny/library.json, .piny/application.json and the static component previews.
-Do not commit .piny/local.json, .piny/cache, local review records, node_modules
-or dist. If components change, npm run previews updates their static samples;
-review those samples before recording any Project Guide review.
+Keep .piny/metadata-reviews.json: it records the reviewed Project Guide baseline
+and detects when its exact source, descriptions or preview inputs change.
+Do not commit .piny/local.json, .piny/cache, node_modules or dist.
+If components change, npm run previews updates their static samples; inspect
+the changes and samples before recording and committing a new Project Guide review.
 
 Tell me when the demo is ready and explain any setup problem plainly.
 ```
